@@ -20,10 +20,10 @@ A comprehensive guide to visualizing data with Matplotlib, from basic plotting t
 ## 📋 Prerequisites
    - **Programming Fundamentals**
       - Proficiency in Python (data types, control structures, functions, etc.).
-         - My Python Workshop: github.com/mr-pylin/python-workshop
+         - My Python Workshop: [github.com/mr-pylin/python-workshop](https://github.com/mr-pylin/python-workshop)
    - **Basic Knowledge of NumPy**
       - Understanding of NumPy arrays and basic operations.
-         - My NumPy Workshop: github.com/mr-pylin/numpy-workshop
+         - My NumPy Workshop: [github.com/mr-pylin/numpy-workshop](https://github.com/mr-pylin/numpy-workshop)
 
 # ⚙️ Setup
 This project was developed using Python `v3.12.3`. If you encounter issues running the specified version of dependencies, consider using this specific Python version.
