@@ -1,0 +1,30 @@
+[tool.poetry]
+package-mode = false
+name = "data_visualization_workshop"
+description = "A comprehensive guide to data visualization from basic plotting techniques to advanced customization. This workshop helps you tell effective data stories in data science and analysis"
+authors = ["Amirhossein Heydari <amirhosseinheydari78@gmail.com>"]
+maintainers = ["Amirhossein Heydari <amirhosseinheydari78@gmail.com>"]
+license = "Apache-2.0"
+repository = "https://github.com/mr-pylin/data-visualization-workshop"
+keywords = ["matplotlib", "seaborn", "plotly", "data visualization"]
+readme = "README.md"
+
+[tool.poetry.urls]
+"Amirhossein Heydari Homepage" = "https://mr-pylin.github.io"
+
+[tool.poetry.dependencies]
+python = "3.13.1"
+ipykernel = "^6.29.5"
+ipywidgets = "^8.1.5"
+matplotlib = "^3.10.1"
+numpy = "^2.2.4"
+pandas = "^2.2.3"
+plotly = "^6.0.1"
+seaborn = "^0.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
