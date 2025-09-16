@@ -33,10 +33,10 @@ A comprehensive guide to data visualization, covering **Matplotlib**, **Seaborn*
 
 - 👨‍💻 **Programming Fundamentals**
   - Proficiency in **Python** (data types, control structures, functions, classes, etc.).
-    - My Python Workshop: [github.com/mr-pylin/python-workshop](https://github.com/mr-pylin/python-workshop)
+    - My Python Workshop: [**github.com/mr-pylin/python-workshop**](https://github.com/mr-pylin/python-workshop)
 - 🔢 **Basic Knowledge of NumPy**
   - Understanding of NumPy arrays and basic operations.
-    - My NumPy Workshop: [github.com/mr-pylin/numpy-workshop](https://github.com/mr-pylin/numpy-workshop)
+    - My NumPy Workshop: [**github.com/mr-pylin/numpy-workshop**](https://github.com/mr-pylin/numpy-workshop)
 
 ## ⚙️ Setup
 
@@ -146,21 +146,22 @@ You are free to **use**, **modify**, and **distribute** this code, but you **mus
 ### ©️ Copyright Information
 
 - **Original Images**:
-  - The images located in the [./assets/images/original/](./assets/images/original/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/original/LICENSE)**.
+  - The images located in the [**./assets/images/original/**](./assets/images/original/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/original/LICENSE)**.
   - Note: This license restricts derivative works, meaning you may share these images but cannot modify them.
 
-- The images located in the [./assets/images/dip_3rd/](./assets/images/dip_3rd/) folder are licensed under the table below:  
+- The images located in the [**./assets/images/dip_3rd/**](./assets/images/dip_3rd/) folder are licensed under the table below:  
 
   | Image                                                                                      | Copyright Owner                            | Address                               |
   |--------------------------------------------------------------------------------------------|--------------------------------------------|---------------------------------------|
   | [CH02_Fig0222(b)(cameraman).tif](./assets/images/dip_3rd/CH02_Fig0222(b)(cameraman).tif)    | Massachusetts Institute of Technology      | [MIT.edu](https://MIT.edu)           |
   | [CH06_Fig0638(a)(lenna_RGB).tif](./assets/images/dip_3rd/CH06_Fig0638(a)(lenna_RGB).tif)    | Public domain                              | -                                     |
 
+- **Library-specific Images**:
+
+  - The images located in the [**assets/images/libraries/matplotlib/**](./assets/images/libraries/matplotlib/) folder are sourced from the [**Matplotlib documentation**](https://matplotlib.org/) and are licensed under the [**Matplotlib License**](https://matplotlib.org/stable/users/license.html).
+  - The images located in the [**assets/images/libraries/seaborn/**](./assets/images/libraries/seaborn/) folder are sourced from the [**Seaborn documentation**](https://seaborn.pydata.org/) and are licensed under the [**BSD 3-Clause License**](https://github.com/mwaskom/seaborn/blob/master/LICENSE).
+  - The images located in the [**assets/images/libraries/plotly/**](./assets/images/libraries/plotly/) folder are sourced from the [**Plotly documentation**](https://plotly.com/) and are licensed under the [**MIT License**](https://github.com/plotly/plotly.py/blob/master/LICENSE).
+
 - **Miscellaneous assets**:
 
-  - The images found in [./assets/images/misc/](./assets/images/misc/) are modified versions of the ones listed above.
-
-- **Third-Party Assets**:
-
-  - Additional images located in [./assets/images/third_party/](./assets/images/third_party/) are used with permission or according to their original licenses.
-  - Attributions and references to the files included in [./assets/images/third_party/](./assets/images/third_party/) are included in the code where these images are used.
+  - The images found in [**./assets/images/misc/**](./assets/images/misc/) are modified versions of the ones listed above.
