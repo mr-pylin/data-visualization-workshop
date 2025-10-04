@@ -1,7 +1,7 @@
 # 📊 Data Visualization Workshop
 
 [![License](https://img.shields.io/github/license/mr-pylin/data-visualization-workshop?color=blue)](https://github.com/mr-pylin/data-visualization-workshop/blob/main/LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.13.1-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3131/)
+[![Python Version](https://img.shields.io/badge/Python-3.13.7-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3137/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/9eb774b7945449cdb86029e9093b3c73)](https://app.codacy.com/gh/mr-pylin/data-visualization-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
 ![Repo Size](https://img.shields.io/github/repo-size/mr-pylin/data-visualization-workshop?color=lightblue)
@@ -40,36 +40,36 @@ A comprehensive guide to data visualization, covering **Matplotlib**, **Seaborn*
 
 ## ⚙️ Setup
 
-This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.13.1**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
+This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.13.7**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
 
 ### 📝 List of Dependencies
 
-[![ipykernel](https://img.shields.io/badge/ipykernel-6.29.5-ff69b4)](https://pypi.org/project/ipykernel/6.29.5/)
-[![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.5-ff6347)](https://pypi.org/project/ipywidgets/8.1.5/)
-[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.0-green)](https://pypi.org/project/matplotlib/3.10.0/)
-[![numpy](https://img.shields.io/badge/numpy-2.2.4-orange)](https://pypi.org/project/numpy/2.2.4/)
-[![pandas](https://img.shields.io/badge/pandas-2.2.3-blue)](https://pypi.org/project/pandas/2.2.3/)
-[![plotly](https://img.shields.io/badge/plotly-6.0.1-cyan)](https://pypi.org/project/plotly/6.0.1/)
+[![ipykernel](https://img.shields.io/badge/ipykernel-6.30.1-ff69b4)](https://pypi.org/project/ipykernel/6.30.1/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.6-green)](https://pypi.org/project/matplotlib/3.10.6/)
+[![numpy](https://img.shields.io/badge/numpy-2.3.3-orange)](https://pypi.org/project/numpy/2.3.3/)
+[![pandas](https://img.shields.io/badge/pandas-2.3.3-blue)](https://pypi.org/project/pandas/2.3.3/)
+[![plotly](https://img.shields.io/badge/plotly-6.3.1-cyan)](https://pypi.org/project/plotly/6.3.1/)
 [![seaborn](https://img.shields.io/badge/seaborn-0.13.2-darkblue)](https://pypi.org/project/seaborn/0.13.2/)
+<!-- [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.5-ff6347)](https://pypi.org/project/ipywidgets/8.1.5/) -->
 
 ### 📦 Installing Dependencies
 
-#### 📦 Method 1: Poetry (**Recommended** ✅)
+#### 📦 Method 1: uv (**Recommended** ✅)
 
-Use [**Poetry**](https://python-poetry.org/) for dependency management. It handles dependencies, virtual environments, and locking versions more efficiently than pip.  
-To install exact dependency versions specified in [**poetry.lock**](./poetry.lock) for consistent environments **without** installing the current project as a package:
+- Use [**uv**](https://docs.astral.sh/uv/) for dependency management. It handles dependencies, virtual environments, and locking versions more efficiently than pip.  
+- To install exact dependency versions specified in [**uv.lock**](./uv.lock) for consistent environments **without** installing the current project as a package:
 
-```bash
-poetry install --no-root
-```
+  ```bash
+  uv sync --no-install-project
+  ```
 
 #### 📦 Method 2: Pip
 
-Install all dependencies listed in [**requirements.txt**](./requirements.txt) using [**pip**](https://pip.pypa.io/en/stable/installation/):
+- Install all dependencies listed in [**requirements.txt**](./requirements.txt) using [**pip**](https://pip.pypa.io/en/stable/installation/):
 
-```bash
-pip install -r requirements.txt
-```
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 ### 🛠️ Usage Instructions
 
@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 ✍️ **Notes**:  
 
-- It is **highly recommended** to stick with the exact dependency versions specified in [**poetry.lock**](./poetry.lock) or [**requirements.txt**](./requirements.txt) rather than using the latest package versions. The repository has been **tested** on these versions to ensure **compatibility** and **stability**.
+- It is **highly recommended** to stick with the exact dependency versions specified in [**uv.lock**](./uv.lock) or [**requirements.txt**](./requirements.txt) rather than using the latest package versions. The repository has been **tested** on these versions to ensure **compatibility** and **stability**.
 - This repository is **actively maintained**, and dependencies are **updated regularly** to the latest **stable** versions.
 - The **table of contents** embedded in the **notebooks** may not function correctly on **GitHub**.
 - For an improved experience, open the notebooks **locally** or view them via [**nbviewer**](https://nbviewer.org/github/mr-pylin/data-visualization-workshop).
