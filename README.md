@@ -15,7 +15,7 @@ A comprehensive guide to data visualization, covering **Matplotlib**, **Seaborn*
 ### 📖 Matplotlib
 
 1. [**Introduction**](./code/matplotlib/01-introduction.ipynb)
-1. [**Basic Plotting**](./code/matplotlib/02-basic-plotting.ipynb)
+1. [**Core Plots**](./code/matplotlib/02-core-plots.ipynb)
 1. [**Styling Plots**](./code/matplotlib/03-styling-plots.ipynb)
 1. [**Sub Plots**](./code/matplotlib/04-subplots.ipynb)
 1. [**Work with Images**](./code/matplotlib/05-work-with-images.ipynb)
