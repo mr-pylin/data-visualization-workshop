@@ -1,7 +1,7 @@
 # 📊 Data Visualization Workshop
 
 [![License](https://img.shields.io/github/license/mr-pylin/data-visualization-workshop?color=blue)](https://github.com/mr-pylin/data-visualization-workshop/blob/main/LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.13.7-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3137/)
+[![Python Version](https://img.shields.io/badge/Python-3.14.0-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3137/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/9eb774b7945449cdb86029e9093b3c73)](https://app.codacy.com/gh/mr-pylin/data-visualization-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
 ![Repo Size](https://img.shields.io/github/repo-size/mr-pylin/data-visualization-workshop?color=lightblue)
@@ -39,15 +39,15 @@ A comprehensive guide to data visualization, covering **Matplotlib**, **Seaborn*
 
 ## ⚙️ Setup
 
-This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.13.7**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
+This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.14.0**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
 
 ### 📝 List of Dependencies
 
-[![ipykernel](https://img.shields.io/badge/ipykernel-6.30.1-ff69b4)](https://pypi.org/project/ipykernel/6.30.1/)
-[![ipympl](https://img.shields.io/badge/ipympl-0.9.7-purple)](https://pypi.org/project/ipympl/0.9.7/)
+[![ipykernel](https://img.shields.io/badge/ipykernel-7.0.1-ff69b4)](https://pypi.org/project/ipykernel/7.0.1/)
+[![ipympl](https://img.shields.io/badge/ipympl-0.9.8-purple)](https://pypi.org/project/ipympl/0.9.8/)
 [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.7-ff6347)](https://pypi.org/project/ipywidgets/8.1.7/)
-[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.6-green)](https://pypi.org/project/matplotlib/3.10.6/)
-[![numpy](https://img.shields.io/badge/numpy-2.3.3-orange)](https://pypi.org/project/numpy/2.3.3/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.7-green)](https://pypi.org/project/matplotlib/3.10.7/)
+[![numpy](https://img.shields.io/badge/numpy-2.3.4-orange)](https://pypi.org/project/numpy/2.3.4/)
 [![pandas](https://img.shields.io/badge/pandas-2.3.3-blue)](https://pypi.org/project/pandas/2.3.3/)
 [![plotly](https://img.shields.io/badge/plotly-6.3.1-cyan)](https://pypi.org/project/plotly/6.3.1/)
 [![seaborn](https://img.shields.io/badge/seaborn-0.13.2-darkblue)](https://pypi.org/project/seaborn/0.13.2/)
