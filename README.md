@@ -19,7 +19,6 @@ A comprehensive guide to data visualization, covering **Matplotlib**, **Seaborn*
 1. [**Customization**](./code/matplotlib/03-customization.ipynb)
 1. [**Advanced Layouts**](./code/matplotlib/04-advanced-layouts.ipynb)
 1. [**Specialized Plots**](./code/matplotlib/05-specialized-plots.ipynb)
-1. [**3D Plotting**](./code/matplotlib/06-3d-plotting.ipynb)
 
 ### 📖 Seaborn
 
